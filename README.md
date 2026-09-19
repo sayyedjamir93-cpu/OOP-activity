@@ -5,7 +5,7 @@
 - **Student Name:** Jamir Salim Sayyed
 - **PRN:** 125UAD1181
 - **Class/Division:** S.Y. B.Tech AIDS (AD2347)
-- **Course Name:** Object Oriented Programming with C++ (ADPC303)
+- **Course Name:** Object Oriented Programming with C++
 - **Unit Covered:** Unit II
 
 ## List of Programs
