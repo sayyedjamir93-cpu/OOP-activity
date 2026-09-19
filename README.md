@@ -10,27 +10,19 @@
 
 ## List of Programs
 
-1. Program 01: Smart Agriculture Sensor Monitor
+1. Program 01: Employee Payroll System 
    Directory: Program_01
-   Description: Real-time sensor monitoring system modeling physical soil sensors using OOP concepts like classes, encapsulation, parameterized constructors, and vector of objects.
+   Description: A company employs full-time employees, part-time employees, and interns. All employees share common information, but salary calculations vary by employment type.
 
-2. Program 02: Student Attendance Management System
+2. Program 02: Digital Payment Gateway
    Directory:Program_02
-   Description: Attendance tracker calculating attendance percentage using data abstraction, encapsulation, and class methods.
+   Description: A payment gateway supports credit-card, UPI, net-banking, and wallet payments. All payment modes implement a common processing interface.
 
-3. Program 03: Vehicle Fleet Management System
+3. Program 03: Vehicle Fleet Management
    Directory: Program_03
-   Description: Fleet tracking system utilizing inheritance, virtual functions, and dynamic polymorphism (`Truck`, `DeliveryVan`, `Bike`).
+   Description: A logistics company manages trucks, delivery vans, and delivery bikes. All are vehicles with common identity and fuel attributes, while each has specialized properties.
 
-4. Mini Project: Banking System with Account Hierarchy
+4. Mini Project: Banking System with Account Hierarchy 
    Directory: Mini_Project
-   Description: Console-based banking application demonstrating class hierarchy, dynamic memory allocation, and virtual functions across `SavingsAccount`, `CurrentAccount`, and `FixedDepositAccount`.
+   Description: Create a base Account class and derived classes SavingsAccount, CurrentAccount, and FixedDepositAccount. Include account number, holder name, balance, deposit, withdrawal, and interest-calculation features. Use virtual functions for account-specific behavior. 
 
-## Instructions to Run
-
-1. Open terminal in any program directory.
-2. Compile using g++:
-   ```bash
-   g++ program_name.cpp -o output
-   ./output
-   ```

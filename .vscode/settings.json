@@ -1,0 +1,10 @@
+{
+    "clangd.arguments": [
+        "--query-driver=${env:LOCALAPPDATA}/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/g++.exe"
+    ],
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ -std=c++17 -Wall -Wextra -pedantic \"$fileName\" -o \"$fileNameWithoutExt.exe\" && & \".\\$fileNameWithoutExt.exe\""
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.fileDirectoryAsCwd": true
+}
